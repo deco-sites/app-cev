@@ -1,0 +1,13 @@
+{
+  "name": "Publish Model",
+  "path": "/este-modelo-3d-traz-profundidade-que-faltava-na-vida",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Form/Publish3D.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

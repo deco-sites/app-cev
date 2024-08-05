@@ -180,5 +180,27 @@
   "/.deco/blocks/Preview%20%2Fsections%2FImages%2FCarousel.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Images/Carousel.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FNovaSecao.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/NovaSecao.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FNovaSecao.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/NovaSecao.tsx"
+  },
+  "/.deco/blocks/deco-vtex.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/vtex.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FTest.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Test.tsx"
+  },
+  "/.deco/blocks/pages-Publish%2520Model-73304.json": {
+    "name": "Publish Model",
+    "path": "/este-modelo-3d-traz-profundidade-que-faltava-na-vida",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
