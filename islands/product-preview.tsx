@@ -62,7 +62,6 @@ const ProductPreview = () => {
         count: 10,
       },
     });
-    // console.log(has);
     products.value = has || [];
   };
 
@@ -83,8 +82,11 @@ const ProductPreview = () => {
     formData.append("file", ref.current!.files[0]);
     formData.append("field", query.value);
 
+    const formDataObj = {};
+    formData.forEach((value, key) => { formDataObj[key] = value });
+
     invoke["site"].loaders["productModels"]({
-      form: formData,
+      form: formDataObj,
     })
       .then((_) => {
         iconsVisible.value = true;
@@ -92,7 +94,9 @@ const ProductPreview = () => {
         query.value = "";
         ref.current.value = "";
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error(err.status)
+        console.error(err.message)
         responseStatus.value = false;
       });
   };

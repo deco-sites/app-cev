@@ -68,6 +68,6 @@
   "gatewayApiKey": {
     "__resolveType": "website/loaders/secret.ts",
     "encrypted": "17d6047d7ea808f8a50ed52bd407a4fbc40e4fb4e8205f4cfdef1483927fc643b86a5d9649ee958ffce15fb786ff0668",
-    "name": "X_API_GATEWAY_TOKEN"
+    "name": "X_GATEWAY_API_TOKEN"
   }
 }
