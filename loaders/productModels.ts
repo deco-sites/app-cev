@@ -28,6 +28,10 @@ async function loader(
     )
     return aResponse;
   } catch (error) {
+    return {
+      error,
+      key: apiKey
+    }
     console.log(error)
   };
 }
