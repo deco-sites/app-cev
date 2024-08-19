@@ -22,7 +22,7 @@ async function loader(
         method: "POST",
         body: formData,
         headers: {
-          "X-Api-Key": apiKey,
+          "X-Api-Key": "A4F9B7E3-1C8D-4E67-9A35-6B2C3D7E8F01",
         },
       },
     )
